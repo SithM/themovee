@@ -1,0 +1,14 @@
+form {
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .noDisplay {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+.opacity{
+  opacity: 0.7;
+}

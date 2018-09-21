@@ -1,0 +1,19 @@
+.name{
+    font-weight: 800;
+    font-size: 17px;
+    color: #f1f1f1
+}
+
+.name:hover{
+    text-decoration: none
+}
+
+.view{
+    height: 70px;
+    padding: 10px
+}
+
+.hover:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.5;
+}
