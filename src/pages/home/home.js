@@ -4,6 +4,7 @@ import FormSearch from './../../components/form/form';
 import NewMovies from './../../components/newMovies/newMovies';
 import Footer from './../../components/footer/footer';
 import $ from 'jquery';
+import OnTop from '../../components/ontop/ontop';
 
 class Home extends React.Component {
 
@@ -13,10 +14,11 @@ class Home extends React.Component {
 
   render() {
     return(
-      <div>
+      <div id="home">
         <Header />
         <FormSearch />
         <NewMovies />
+        <OnTop />
         <Footer />
       </div>
     );
